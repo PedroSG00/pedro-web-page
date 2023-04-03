@@ -17,11 +17,7 @@ Este es un proyecto de portafolio desarrollado con **NextJs**, **TypeScript** y 
 
 1. Clonar el repositorio: `git clone https://github.com/tu-usuario/portfolio.git`
 2. Instalar dependencias: `npm install`
-3. Crear un archivo `.env.local` en la raíz del proyecto con la siguiente información:
-
-
-NEXT_PUBLIC_GOOGLE_TRANSLATE_API_KEY=<API_KEY>
-
+3. Crear un archivo `.env.local` en la raíz del proyecto con la siguiente información: NEXT_PUBLIC_GOOGLE_TRANSLATE_API_KEY=<API_KEY>
 
 Donde `<API_KEY>` es la clave de la API de Google Translate.
 

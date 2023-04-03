@@ -1,46 +1,31 @@
 # Portfolio
 
-Este es un proyecto de portafolio desarrollado con **NextJs**, **TypeScript** y **Tailwind CSS**. El portafolio está diseñado para ser multi-idioma utilizando la API de **Google Translate**.
+This is a portfolio project developed with **NextJs**, **TypeScript**, and **Tailwind CSS**. The portfolio is designed to be multi-language using the **Google Translate** API.
 
-## Características
+## Features
 
-- Desarrollado con NextJs, TypeScript y Tailwind CSS
-- Multi-idioma utilizando la API de Google Translate
-- Estructura modular y escalable
+- Developed with NextJs, TypeScript, and Tailwind CSS
+- Multi-language using the Google Translate API
+- Modular and scalable structure
 
-## Requerimientos
+## Requirements
 
 - Node.js
-- Cuenta de Google Cloud Platform con acceso a la API de Google Translate
+- Google Cloud Platform account with access to the Google Translate API
 
-## Configuración
+## Configuration
 
-1. Clonar el repositorio: `git clone https://github.com/tu-usuario/portfolio.git`
-2. Instalar dependencias: `npm install`
-3. Crear un archivo `.env.local` en la raíz del proyecto con la siguiente información:
+1. Clone the repository: `git clone https://github.com/your-username/portfolio.git`
+2. Install dependencies: `npm install`
+3. Create a `.env.local` file in the project root with the following information:
 
 NEXT_PUBLIC_GOOGLE_TRANSLATE_API_KEY=<API_KEY>
 
-Donde `<API_KEY>` es la clave de la API de Google Translate.
 
-## Uso
+Where `<API_KEY>` is your Google Translate API key.
 
-- Para iniciar el servidor de desarrollo: `npm run dev`
-- Para compilar el proyecto para producción: `npm run build`
-- Para iniciar el servidor en producción: `npm run start`
+## Usage
 
-## Contribución
-
-Las contribuciones son bienvenidas. Para contribuir al proyecto, sigue estos pasos:
-
-1. Haz un fork del proyecto
-2. Crea una rama para tu contribución: `git checkout -b mi-contribucion`
-3. Realiza tus cambios
-4. Haz commit de tus cambios: `git commit -am 'Agrego mi contribución'`
-5. Push a tu rama: `git push origin mi-contribucion`
-6. Crea un pull request
-
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más información.
-
+- To start the development server: `npm run dev`
+- To build the project for production: `npm run build`
+- To start the production server: `npm run start`

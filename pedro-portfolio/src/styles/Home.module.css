@@ -1,0 +1,8 @@
+.firstSection {
+    background-image: url('../../public/images/abstract-background.png');
+}
+
+.roundedImage {
+    filter: grayscale(100%);
+    border-radius: 100%;
+}

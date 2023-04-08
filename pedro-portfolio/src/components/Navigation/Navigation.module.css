@@ -1,0 +1,10 @@
+.nav-link {
+    color: rgb(56, 56, 56);
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid rgb(56, 56, 56);
+    transition: border-bottom 0.2s ease-in-out;
+}

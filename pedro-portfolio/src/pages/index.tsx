@@ -1,31 +1,34 @@
-import Head from 'next/head'
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import ProfileImage from '../../public/images/Pedro_Suarez_Photo.jpeg'
 import styles from '@/styles/Home.module.css'
-
-const inter = Inter({ subsets: ['latin'] })
-
-const people = [
-  {
-    name: 'Calvin Hawkins',
-    email: 'calvin.hawkins@example.com',
-    image:
-      'https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-  },
-  {
-    name: 'Kristen Ramos',
-    email: 'kristen.ramos@example.com',
-    image:
-      'https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-  },
-  {
-    name: 'Ted Fox',
-    email: 'ted.fox@example.com',
-    image:
-      'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-  },
-]
+import Layout from '../components/Layout/Layout'
+import { Container, Row, Col } from 'react-bootstrap'
 
 export default function Home() {
-  return <h1>HOMEPAGE</h1>
+
+    return (
+        <>
+            <Layout title={'PedroSG00 - Home'}>
+                <section className={`${styles.firstSection}`}>
+                    <Container className='bg-transparent p-5'>
+                        <Row className='bg-transparent'>
+                            <Col className='bg-transparent' md={{ span: 6, offset: 3 }} >
+                                <div className='bg-transparent d-flex justify-content-evenly align-items-center flex-wrap'>
+                                    <Image
+                                        width={300}
+                                        height={400}
+                                        src={ProfileImage}
+                                        alt='Pedro Image'
+                                        className={`${styles.roundedImage}`}
+                                    />
+                                    <h1 className='bg-transparent'>Who am i?</h1>
+                                </div>
+                            </Col>
+                        </Row>
+                    </Container>
+                </section>
+            </Layout >
+        </>
+    )
+
 }

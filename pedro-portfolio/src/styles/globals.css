@@ -1,11 +1,9 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&family=Tajawal:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Shantell+Sans:wght@300&family=Tajawal:wght@200;300&display=swap');
 
 * {
-    background-color: #031926;
-    color: #d6d6d6;
-    font-family: 'Tajawal', sans-serif;
-    font-weight: 600;
+    font-family: 'Gruppo';
+    font-weight: bolder;
+    font-size: 1em;
+    background-color: azure;
+    color: rgb(41, 41, 41);
 }
